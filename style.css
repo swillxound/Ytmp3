@@ -120,3 +120,23 @@ button:active {
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 255, 136, 0.3);
 }
+/* Ad Layout Styles */
+.ad-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 15px auto;
+    padding: 10px;
+    background: #16162a;
+    border-radius: 8px;
+    border: 1px solid #252545;
+    text-align: center;
+    min-height: 60px; /* Reserves space so page layout doesn't jump */
+}
+
+.top-ad {
+    margin-bottom: 20px;
+}
+
+.bottom-ad {
+    margin-top: 20px;
+}
